@@ -261,3 +261,5 @@ For support or questions:
 ---
 
 **TicketSecure** - Protecting fair access to tickets through advanced bot detection technology."# gggi" 
+#   B o t _ D e t e c t i o n  
+ 
