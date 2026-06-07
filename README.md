@@ -3,14 +3,13 @@
 A sophisticated React-based ticket booking system with advanced bot detection capabilities to prevent automated ticket scalping and ensure fair access for genuine users.
 
 ## 🚀 Features
-
-### Core Functionality
+Core Functionality
 - **Multi-step Ticket Booking Process**: Select tickets → Enter passenger details → Choose seats → Confirm booking
 - **Real-time Bot Detection**: Advanced behavioral analysis during the booking process
 - **Admin Dashboard**: Comprehensive analytics and monitoring of bot detection metrics
 - **Responsive Design**: Modern UI built with Tailwind CSS and shadcn/ui components
 
-### Advanced Bot Detection Algorithms
+ Advanced Bot Detection Algorithms
 
 #### 1. Typing Behavior Analysis
 - **Keystroke Timing**: Analyzes average time between key presses
@@ -42,14 +41,14 @@ A sophisticated React-based ticket booking system with advanced bot detection ca
   - Canvas fingerprinting
   - Touch points
 
-### Risk Scoring System
+Risk Scoring System
 The system calculates a comprehensive risk score (0-100%) based on:
 - **Typing Behavior (40% weight)**: Speed, consistency, corrections
 - **Mouse Behavior (30% weight)**: Speed, path curvature, frequency
 - **Form Behavior (20% weight)**: Fill time, interactions
-- **Request Patterns (10% weight)**: Frequency, timing
-
-### Bot Blocking
+- **Request Patterns (10% weight)**: Frequency,
+-
+- Bot Blocking
 - **Automatic Detection**: Users flagged as bots (risk score >70%) are blocked
 - **Graceful Blocking**: Professional modal explaining the detection
 - **Retry Mechanism**: Legitimate users can retry after being blocked
@@ -70,33 +69,33 @@ The system calculates a comprehensive risk score (0-100%) based on:
 - **PostgreSQL** for data storage
 - **Row Level Security (RLS)** for data protection
 
-### Bot Detection
+Bot Detection
 - **Custom React Hooks** for interaction tracking
 - **Real-time Analytics** with Supabase
 - **Machine Learning Ready** data collection
 
-## 📊 Admin Dashboard
+📊 Admin Dashboard
 
 The admin dashboard provides comprehensive analytics:
 
-### Overview Metrics
+ Overview Metrics
 - Total sessions tracked
 - Bot vs human session counts
 - Average risk scores
 - Booking success/block rates
 
-### Detailed Analytics
+ Detailed Analytics
 - **Session Details**: Individual session analysis
 - **Risk Factor Breakdown**: Most common bot indicators
 - **Hourly Statistics**: Bot detection patterns over time
 - **Booking History**: Success and blocked booking attempts
 
-### Access Control
+Access Control
 - Admin-only access (email: `admin@ticketsecure.com`)
 - Real-time data refresh
 - Export capabilities for further analysis
 
-## 🚦 Getting Started
+ Getting Started
 
 ### Prerequisites
 - Node.js 18+ or Bun
@@ -257,11 +256,3 @@ For support or questions:
 - **Supabase** for the backend infrastructure
 - **Tailwind CSS** for the styling framework
 - **React** community for the excellent ecosystem
-
----
-
-**TicketSecure** - Protecting fair access to tickets through advanced bot detection technology."# gggi" 
-#   B o t _ D e t e c t i o n  
- #   B o t _ D e t e c t i o n  
- #   t u l i p  
- 
